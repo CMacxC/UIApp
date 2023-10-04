@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UIApp.Login"
+             NavigationPage.HasNavigationBar="False"
+             Background="#fff">
+
+    <Grid RowDefinitions="*, *">
+
+        <StackLayout HorizontalOptions="Center">
+
+            <Label Text="Login" FontSize="30" FontFamily="Metropolis" TextColor="#4A4B4D" Margin="0, 40, 0, 0" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Add your details to login." FontSize="15" FontFamily="Metropolis" TextColor="#7C7D7E" Margin="0, 10, 0, 0" HorizontalTextAlignment="Center"/>
+
+            <Frame CornerRadius="30" Background="#F2F2F2" Margin="0, 40, 0, 0" HasShadow="False" WidthRequest="300" HeightRequest="60">
+
+                <Entry Placeholder="Your email"  Margin="0, -30, 0, -30" PlaceholderColor="#B6B7B7" TextColor="#000" FontSize="16"/>
+
+            </Frame>
+
+            <Frame CornerRadius="30" Background="#F2F2F2" Margin="0, 20, 0, 0" HasShadow="False" WidthRequest="300" HeightRequest="60">
+
+                <Entry Placeholder="Your Password"  Margin="0, -30, 0, -30" PlaceholderColor="#B6B7B7" TextColor="#000" FontSize="16"/>
+
+            </Frame>
+
+            <Button Text="Login" 
+                    Command="{Binding Login}"
+                    WidthRequest="310" 
+                    HeightRequest="60" 
+                    CornerRadius="30" 
+                    HorizontalOptions="Center" 
+                    Background="#FC6011" 
+                    TextColor="#fff"
+                    Margin="0, 30, 0, 0"/>
+
+            <Button Text="Create an Account" 
+                    Command="{Binding Sign}"
+                    WidthRequest="310" 
+                    HeightRequest="60" 
+                    CornerRadius="30" 
+                    HorizontalOptions="Center" 
+                    Background="#fff" 
+                    TextColor="#FC6011" 
+                    BorderColor="#FC6011" 
+                    BorderWidth="1"
+                     Margin="0, 5, 0, 0"/>
+
+        </StackLayout>
+        
+        
+    </Grid>
+    
+</ContentPage>

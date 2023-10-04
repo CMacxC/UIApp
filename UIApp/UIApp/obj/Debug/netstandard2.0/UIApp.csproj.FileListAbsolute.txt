@@ -1,0 +1,17 @@
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\bin\Debug\netstandard2.0\UIApp.deps.json
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\bin\Debug\netstandard2.0\UIApp.dll
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\bin\Debug\netstandard2.0\ref\UIApp.dll
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\bin\Debug\netstandard2.0\UIApp.pdb
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.csproj.AssemblyReference.cache
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.AssemblyInfoInputs.cache
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.AssemblyInfo.cs
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.csproj.CoreCompileInputs.cache
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.dll
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\refint\UIApp.dll
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\UIApp.pdb
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\siste\Documents\sistemas 2\Sln_UIApp\UIApp\UIApp\obj\Debug\netstandard2.0\SignUp.xaml.g.cs

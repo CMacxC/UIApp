@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UIApp.MainPage" 
+             xmlns:vm="clr-namespace:UIApp.ModelView"
+             NavigationPage.HasNavigationBar="False"
+             Background="#fff">
+
+    <ContentPage.BindingContext>
+
+        <vm:BaseModel x:Name="vm"/>
+
+    </ContentPage.BindingContext>
+    
+    <Grid RowDefinitions="*, *">
+
+        <Image Source="Organe_top_shape.png" 
+               Aspect="AspectFill" />
+
+        <StackLayout Grid.Row="1">
+
+            <Image Source="Monkey_face.png" 
+                   WidthRequest="130" 
+                   Margin="0, -115, 0, 10"/>
+
+            <StackLayout HorizontalOptions="Center" 
+                         Grid.Column="1" 
+                         Orientation="Horizontal" 
+                         Margin="0, -10, 0, 0"
+                         Spacing="10">
+
+                <Label Text="Meal" 
+                       FontSize="34" 
+                       FontFamily="Cabin" 
+                       TextColor="#FC6011"/>
+                
+                <Label Text="Monkey" 
+                       FontSize="34" 
+                       FontFamily="Cabin" 
+                       TextColor="#4A4B4D"/>
+                
+            </StackLayout>
+
+            <Label Text="Food Delivery" 
+                   FontSize="11" 
+                   CharacterSpacing="5" 
+                   WidthRequest="130" 
+                   FontFamily="Metropolis" 
+                   HorizontalOptions="Center" 
+                   TextColor="#4A4B4D"
+                   Margin="0, -5, 0, 0"/>
+            
+            <Label Text="Discover the best foods from over 1,000 restaurants and fast delivary to your doorset." 
+                   HorizontalTextAlignment="Center" 
+                   FontSize="13" 
+                   CharacterSpacing="2" 
+                   FontFamily="Metropolis" 
+                   Margin="50, 40, 50, 60" 
+                   HorizontalOptions="Center" 
+                   TextColor="#4A4B4D"/>
+
+            <Button Text="Login" 
+                    Command="{Binding Login}"
+                    WidthRequest="310" 
+                    HeightRequest="65" 
+                    CornerRadius="30" 
+                    HorizontalOptions="Center" 
+                    Background="#FC6011" 
+                    TextColor="#fff"/>
+            
+            <Button Text="Create an Account" 
+                    Command="{Binding Sign}"
+                    WidthRequest="310" 
+                    HeightRequest="65" 
+                    CornerRadius="30" 
+                    HorizontalOptions="Center" 
+                    Background="#fff" 
+                    TextColor="#FC6011" 
+                    BorderColor="#FC6011" 
+                    BorderWidth="1"
+                    Margin="0, 5, 0, 0"/>
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
